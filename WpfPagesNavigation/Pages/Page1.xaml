@@ -1,0 +1,104 @@
+﻿<Page x:Class="WpfPagesNavigation.Pages.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfPagesNavigation.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    Width="550">
+
+
+
+            <StackPanel Orientation="Horizontal"  Background="#FF243FE8"
+                      >
+                <Image Source="/Images/m.jpg" Height="25"
+                       Margin="30 0 0 0"></Image>
+
+                <TextBlock 
+
+                       Height="35px"
+                       FontSize="20px"
+                 Foreground="White"
+                Padding="10 0 0 0"
+                       Text="МИДиС на связи">
+
+
+                  </TextBlock>
+             
+            </StackPanel>
+            
+            
+           
+
+
+
+
+            <TextBlock 
+                      >
+                <TextBlock.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF93B2AB" Offset="1"/>
+                        <GradientStop Color="#FF40B69B" Offset="0.02"/>
+                    </LinearGradientBrush>
+                </TextBlock.Background>
+            
+                
+                 <TextBlock Background="White"
+                            Width="280"
+                            Height="280"
+                            Margin="20 20"
+                            Padding="10"
+                            FontSize="15px"
+                            >
+                      <Run Text="МИДиС на связи" Foreground="Blue"/>
+                   
+                     <LineBreak/> Всем доброе утро☀️ <LineBreak/>
+
+                      Вот и наступила новая неделя🤯<LineBreak/>
+
+                     Постарайтесь максимально<LineBreak/>
+                     отдаться делу, учебе и работе,<LineBreak/>
+                     чтобы провести время продуктивно🔥<LineBreak/>
+
+                     Существует фраза состоящая из очень<LineBreak/>
+                     ценных слов — «не жизнь такая,<LineBreak/>
+                     а мы такие» Ведь это правда! <LineBreak/>
+
+                     Все зависит только от тебя и никак<LineBreak/>
+                     иначе, поэтому будь в разрезе <LineBreak/>
+                     «здесь и сейчас».
+                  
+
+                    
+                          </TextBlock>
+                
+                
+                
+                  
+            </TextBlock>
+
+            <Border 
+                BorderThickness="1" BorderBrush="#FFA89E9E"
+                    Background="White" Height="50">
+                <Button
+                  
+                    Margin="0,0 ,0,0"
+                Background="White"
+                 
+                    Foreground="Blue"
+                    FontSize="20"
+                    Content="Убрать звук"/>
+            </Border>
+
+
+
+        </StackPanel>
+
+    </Grid>
+</Page>

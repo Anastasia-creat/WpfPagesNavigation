@@ -1,0 +1,79 @@
+﻿<Page x:Class="WpfPagesNavigation.Pages.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfPagesNavigation.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page6">
+
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    Width="550">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF10FFA8" Offset="0"/>
+                    <GradientStop Color="#FFD3ECE3" Offset="0.974"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+
+
+            <StackPanel Orientation="Horizontal"  Background="#FF243FE8"
+                      >
+                <Image Source="/Images/2.png" Height="25"
+                       Margin="30 0 0 0"></Image>
+
+                <TextBlock 
+
+                       Height="35px"
+                       FontSize="20px"
+                 Foreground="White"
+                Padding="10 0 0 0"
+                       Text="Работа">
+
+
+                </TextBlock>
+
+            </StackPanel>
+
+
+
+        </StackPanel>
+
+
+
+        <TextBlock 
+            Background="#FF78D4B6"
+           
+                       HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                       Height="100"
+                       Width="210"
+            FontSize="19px"
+            Foreground="White"
+                Margin="5 5 0 0 "
+                Padding="5 15 0 0 "
+          
+            
+            >Здесь пока ничего нет <LineBreak/>
+            Отправьте сообщение.</TextBlock>
+
+
+
+        <Border BorderBrush="AliceBlue" 
+            CornerRadius="20">
+            <TextBox BorderBrush="AliceBlue"
+              
+            VerticalAlignment="Bottom"
+               HorizontalAlignment="Center"
+            Width="550"
+            Height="60"
+               Background="White"
+                     Padding="20 5 0 0"
+               Text="Написать сообщение"></TextBox>
+        </Border>
+    </Grid>
+</Page>
